@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'transaction.dart';
-import 'data_base_helper.dart';
+import '../models/transaction.dart';
+import '../db/data_base_helper.dart';
 
 class AddTransactionPage extends StatefulWidget {
   final Transaccion? transaction; // Recibe una transacción opcional

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:share_plus/share_plus.dart';
-import 'add_transaction.dart';
-import 'transaction.dart';
-import 'data_base_helper.dart';
+import 'add_transaction_page.dart';
+import '../models/transaction.dart';
+import '../db/data_base_helper.dart';
 import 'dart:convert';
 import 'dart:io';
 import 'package:path_provider/path_provider.dart';
